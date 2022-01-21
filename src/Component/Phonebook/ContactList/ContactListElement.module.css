@@ -1,0 +1,29 @@
+.contactListElement {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+.deleteBtn {
+    width: 80px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 2px solid #d3d3d3;
+    cursor: pointer;
+}
+
+.deleteBtn:hover:focus {
+    border: 2px solid #3c07a0;
+}
+.deleteText {
+    color: #3c07a0;
+}
+ul {
+    width: 300px;
+}

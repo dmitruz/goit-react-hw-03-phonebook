@@ -1,0 +1,12 @@
+.filterText {
+    padding-left: 10px;
+}
+.inputFind {
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 2px solid #d3d3d3;
+    height: 20px;
+    outline: none;
+    margin-left: 10px;
+}
