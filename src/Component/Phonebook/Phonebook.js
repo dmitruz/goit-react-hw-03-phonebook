@@ -49,7 +49,7 @@ export default class Phonebook extends Component {
   addContactIntoState = newContact => {
     const { contacts } = this.state;
     if (filterContacts(contacts, newContact.name).length) {
-      notyf.alert(`${newContact.name} is allready in phonebook`);
+      notyf.error(`${newContact.name} is allready in phonebook`);
       return;
     }
 
